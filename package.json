@@ -1,0 +1,27 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "## Description Command-line application that dynamically generates a README.md file. Requests user's input using the Inquirer package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ktrnthsnr",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2",
+    "markdown": "^0.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktrnthsnr/readme-generator.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "bugs": {
+    "url": "https://github.com/ktrnthsnr/readme-generator/issues"
+  },
+  "homepage": "https://github.com/ktrnthsnr/readme-generator#readme"
+}
