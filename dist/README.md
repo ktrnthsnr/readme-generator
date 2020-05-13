@@ -1,42 +1,42 @@
-# Repository: ww
+# Repository: readme-generator
 
 ## Questions?
 
-* Contact info/email: ww@
-* GitHub URL: https://github.com/wwgit
+* Contact info/email: asathsnr@gmail.com
+* GitHub URL: https://github.com/ktrnthsnr
 
 * Instructions on how to contribute:
 
-Please follow these steps to contribute: ww
+Please follow these steps to contribute: Please email me for requests to be added as a contributor.
     
 
 
 ##### ---- Repository Project Details ----  
 
 ## Table of Contents
-* [Repo Description](#description)
+* [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Reference](#reference)
 * [License](#license)
 
-## Repo Description
-ww
+## Description
+This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
 ## Installation
-ww
+Prereq: install VSCode, Node.js. After cloning the repo to your local drive, run the following in the VSCode terminal command-line $ npm init. Then install the Inquirer, or $ npm install inquirer. Then create a .gitignore file in the root and add the node_modules to this file.
 
 ## Usage
-ww
+From your terminal, start the application by running $ node index.js
 
-## References
-ww
+## Reference
+https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md
 
 ## Testing
-ww
+For example, run within the VSCode terminal, which will push the file to the root. You may validate the output within your repo README.md section.
 
 ## Technology
-JavaScript
+JavaScript,ES6,Node
 
 ## License
 MIT License
@@ -45,6 +45,6 @@ MIT License
 
 
 ## Contribution
-wwgit
+ktrnthsnr
 
-### ©️2020 wwgit
+### ©️2020 ktrnthsnr

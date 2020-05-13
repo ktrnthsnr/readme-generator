@@ -32,7 +32,7 @@ const writeFile = fileContent => {
           }        
           resolve({
                   ok: true,
-                  message: 'The README.md file has been created in the /dist folder.'
+                  message: 'The README.md file has been created in your root folder.'
           });
   });
   });
