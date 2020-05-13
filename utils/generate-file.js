@@ -10,7 +10,7 @@
         //     a. require for fs
         // ------------------------------------------------------ //
         // 2. the functions  
-        //     a. writeFile function w/promise ( md-template HTML   >   dist/index.html)
+        //     a. writeFile function w/promise ( md-template    >   dist/README.md)
         // ------------------------------------------------------ //
         // 3. module exports
         //     a. writefile 
@@ -21,10 +21,11 @@
 //-- require
 const fs = require('fs');
 
-//-- create a promise and write a file
+//-- create a promise, produces the README.md file, writes to the root (you can change this output location)
 const writeFile = fileContent => {
   return new Promise((resolve, reject) => {
-  fs.writeFile('./dist/README.md', fileContent, err => {
+        //   fs.writeFile('./dist/README.md', fileContent, err => { 
+  fs.writeFile('./README.md', fileContent, err => {
          if (err) {
                   reject(err);
                   return;

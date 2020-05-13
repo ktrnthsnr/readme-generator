@@ -9,13 +9,13 @@
 // page contains:
 // ------------------------------------------------------------- //
         // 1. the functions 
-        //     a. generateContribute() to create HTML Contribute section
-        //     b. generateRepos() to create HTML repos section
+        //     a. generateContribute() to create MD Contribute section
+        //     b. generateRepos() to create MD repos section
         // ------------------------------------------------------ //
         // 2. module export & function
-        //     a. templateData array > to export the HTML framework template
-        //            1) nested with generateContribute() array into an HTML template literal
-        //            2) nested with generateRepos() array into an HTML template literal
+        //     a. templateData array > to export the MD framework template
+        //            1) nested with generateContribute() array into an MD template literal
+        //            2) nested with generateRepos() array into an MD template literal
 
 // ----------------------------------------------------------------------------------------------- //
 
@@ -58,7 +58,13 @@ ${projectsArr
 .filter(({ feature }) => !feature)
 // .map(({ name, description, languages, link }) => {
 .map(({ description, installation, usage, reference, test, lang,license }) => {
-return `
+return `## Table of Contents
+* [Repo Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [References](#reference)
+* [License](#license)
+
 ## Repo Description
 ${description}
 

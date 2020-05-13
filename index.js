@@ -5,7 +5,7 @@
 
 // ------------------------------------------------------------- //
 // this file:   apps.js
-// outputs:     a README.md file located in the /dist folder
+// outputs:     a README.md file to root (or you can update to push to the /dist folder)
 // usage:       run in terminal: $ node index.js
 // page contains:
 // ------------------------------------------------------------- //
@@ -21,8 +21,8 @@
         // 3. the inits
         //     a. promptInput     
         //     b.    w/ nested promptRepo
-        //                      > returns generateMDTemplate()   >  creates HTML template
-        //                      > writeFile >  moves >  index.html & style.css to /dist folder
+        //                      > returns generateMDTemplate()   >  creates MD template
+        //                      > writeFile >  moves >  READ.md to /dist folder
 
 // ------------------------------------------------------------- //
 
