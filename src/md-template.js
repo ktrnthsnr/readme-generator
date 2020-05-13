@@ -59,13 +59,13 @@ ${projectsArr
 // .map(({ name, description, languages, link }) => {
 .map(({ description, installation, usage, reference, test, lang,license }) => {
 return `## Table of Contents
-* [Repo Description](#description)
+* [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [References](#reference)
+* [Reference](#reference)
 * [License](#license)
 
-## Repo Description
+## Description
 ${description}
 
 ## Installation
@@ -74,7 +74,7 @@ ${installation}
 ## Usage
 ${usage}
 
-## References
+## Reference
 ${reference}
 
 ## Testing
