@@ -1,30 +1,17 @@
-// ------------------------------------------------------------- //
-
-// gitprofile:  ktrnthsnr               date: may 11th 2020
-// assignment/ref:  module 9 Node.js    repo: readme-generator
-
-// ------------------------------------------------------------- //
-// this file:   apps.js
-// outputs:     a README.md file to the /dist folder (or you can update to push to the /dist folder)
-// usage:       run in terminal: $ node index.js
-// page contains:
-// ------------------------------------------------------------- //
-        // 1. the requires
+// Summary of file: md-template
+        // 1.  requires
         //     a. require for npm inquirer 
         //     b. require for generateMDTemplate   >  md-template.js
         //     c. require for writeFile   >  generate-file.js
-        // ------------------------------------------------------ //
-        // 2. the functions    
+        // 2.  functions    
         //     a. promptInput() with questions
         //     b. promptRepo() with questions
-        // ------------------------------------------------------ //
-        // 3. the inits
+        // 3.  inits
         //     a. promptInput     
         //     b.    w/ nested promptRepo
         //                      > returns generateMDTemplate()   >  creates MD template
         //                      > writeFile >  moves >  READ.md to /dist folder
 
-// ------------------------------------------------------------- //
 
 // --- require ---- //
 const inquirer = require('inquirer');

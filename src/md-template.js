@@ -1,23 +1,12 @@
 
-// ------------------------------------------------------------- //
-
-// gitprofile:  ktrnthsnr               date: may 11th 2020
-// assignment/ref:  module 9 Node.js    repo: readme-generator
-
-// ------------------------------------------------------------- //
-// this file:   md-template.js
-// page contains:
-// ------------------------------------------------------------- //
-        // 1. the functions 
+// Summary of file: md-template
+        // 1.  functions 
         //     a. generateContribute() to create MD Contribute section
         //     b. generateRepos() to create MD repos section
-        // ------------------------------------------------------ //
         // 2. module export & function
         //     a. templateData array > to export the MD framework template
         //            1) nested with generateContribute() array into an MD template literal
         //            2) nested with generateRepos() array into an MD template literal
-
-// ----------------------------------------------------------------------------------------------- //
 
 // ----   MD template - contribute detail, Contribute section --------  //
 
@@ -35,13 +24,13 @@ Please follow these steps to contribute: ${contributeText}
 
 const generateRepos = projectsArr => {
 return `
-##### ---- Repository Project Details ----  ${projectsArr
+${projectsArr
     .filter(({ feature }) => feature)
     // .map(({ name, description, languages, link }) => {
     .map(({ license, description, installation }) => {
     return `
 
-## Licenses   
+## Licenses
 ${license.join(', ')}
 
 ## Project Description 
