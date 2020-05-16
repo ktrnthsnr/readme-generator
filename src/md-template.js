@@ -31,7 +31,7 @@ ${projectsArr
     return `
 
 ## Licenses
-${license.join(', ')}
+${license}
 
 ## Project Description 
 ${description}
@@ -82,7 +82,7 @@ ${license}
 `;
 };
 
-// -- MD template, basic user info for README.md w/ Contribute and repos nested in MD  -----  //
+// -- MD template, basic user info for README.md + w/contribute and repo nested  -----  //
 
 module.exports = templateData => {
     const { repos, contribute, ...header } = templateData;

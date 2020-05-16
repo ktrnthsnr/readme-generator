@@ -79,7 +79,7 @@ const promptInput = () => {
             {
                 type: 'input',
                 name: 'contribute',
-                message: 'Please include instructions on how to contribute:',
+                message: 'Instructions on how to contribute:',
                 when: ({ confirmContribute }) => confirmContribute
             }
             ]);
@@ -188,7 +188,7 @@ const promptRepo = portfolioData => {
                                 name: 'license',
                                 //update for license & badge
                                 message: 'What license would you like to use? (Spacebar to select, Enter afterwards.)',
-                                choices: ['MIT License', 'GNU GPLv3', 'Other']
+                                choices: ['MIT License', 'GNU GPLv3', 'AGPL']
                             }                           
                     ])
                             .then(projectData => {

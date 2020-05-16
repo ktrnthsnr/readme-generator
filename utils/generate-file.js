@@ -1,22 +1,7 @@
-// ------------------------------------------------------------- //
-
-// gitprofile:  ktrnthsnr               date: may 10th 2020
-// assignment/ref:  module 9 Node.js    repo: readme-generator
-// ------------------------------------------------------------- //
-// this file:   generate-file.js     
-// page contains:
-// ------------------------------------------------------------- //
-        // 1. the require
-        //     a. require for fs
-        // ------------------------------------------------------ //
-        // 2. the functions  
-        //     a. writeFile function w/promise ( md-template    >   dist/README.md)
-        // ------------------------------------------------------ //
-        // 3. module exports
-        //     a. writefile 
-        //     
-
-// ------------------------------------------------------------- //
+ // Summary of file: generate-file.js
+        // 1.  require for fs
+        // 2.  writeFile function w/promise ( md-template    >   dist/README.md)
+        // 3.  module exports, writefile 
 
 //-- require
 const fs = require('fs');

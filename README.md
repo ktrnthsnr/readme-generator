@@ -1,10 +1,7 @@
 ﻿# Repository: readme-generator
 
-## GitHub URL
+## GitHub URL for this repo
 * GitHub URL: https://github.com/ktrnthsnr/readme-generator
-
-## Questions?
-* Contact info: https://github.com/ktrnthsnr/ktportfolio 
 
 ## Table of Contents
 * [Description](#description)
@@ -15,6 +12,7 @@
 * [Technology](#technology)
 * [Contribute](#contribute)
 * [License](#license)
+* [Contact](#contact)
 
 ## Description
 This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
@@ -47,5 +45,8 @@ JavaScript,ES6,Node
 
 ## License
 MIT License
+
+## Contact
+* Info: https://github.com/ktrnthsnr/ktportfolio
 
 ### ©️2020 ktrnthsnr

@@ -1,17 +1,17 @@
-# Repository: t
+# Repository: a
 
 ## Questions?
 
-* Contact info/email: t@
-* GitHub URL: https://github.com/t
+* Contact info/email: a@
+* GitHub URL: https://github.com/agit
 
 * Instructions on how to contribute:
 
-Please follow these steps to contribute: y
+Please follow these steps to contribute: a
     
 
 
-##### ---- Repository Project Details ----  
+
 
 ## Table of Contents
 * [Description](#description)
@@ -21,19 +21,19 @@ Please follow these steps to contribute: y
 * [License](#license)
 
 ## Description
-y
+a
 
 ## Installation
-t
+a
 
 ## Usage
-t
+a
 
 ## Reference
-t
+a
 
 ## Testing
-t
+a
 
 ## Technology
 JavaScript
@@ -46,6 +46,6 @@ GNU GPLv3
 
 
 ## Contribution
-t
+agit
 
-### ©️2020 t
+### ©️2020 agit

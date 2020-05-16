@@ -22,7 +22,7 @@ Please follow these steps to contribute: Please email me for requests to be adde
 This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
 ## Installation
-Prereq: install VSCode, Node.js. After cloning the repo to your local drive, run the following in the VSCode terminal command-line $ npm init. Then install the Inquirer, or $ npm install inquirer. Then create a .gitignore file in the root and add the node_modules to this file.
+Prereq: install VSCode, Node.js. After cloning the repo to your local drive run the following in the VSCode terminal command-line $ npm init. Then install the Inquirer, or $ npm install inquirer. Then create a .gitignore file in the root and add the node_modules to this file.
 
 ## Usage
 From your terminal, start the application by running $ node index.js
