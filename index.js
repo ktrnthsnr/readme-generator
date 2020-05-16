@@ -5,7 +5,7 @@
 
 // ------------------------------------------------------------- //
 // this file:   apps.js
-// outputs:     a README.md file to root (or you can update to push to the /dist folder)
+// outputs:     a README.md file to the /dist folder (or you can update to push to the /dist folder)
 // usage:       run in terminal: $ node index.js
 // page contains:
 // ------------------------------------------------------------- //
@@ -173,7 +173,7 @@ const promptRepo = portfolioData => {
                                     }
                                 }
                             },
-                            // -- test question
+                            // -- how to test related question
                             {
                                 type: 'input',
                                 name: 'test',
@@ -197,10 +197,10 @@ const promptRepo = portfolioData => {
                             },
                             // -- choose license type question
                             {
-                                type: 'checkbox',
+                                type: 'list',
                                 name: 'license',
                                 //update for license & badge
-                                message: 'What license would you like to use? (Spacebar to select, arrow down, Enter afterwards.)',
+                                message: 'What license would you like to use? (Spacebar to select, Enter afterwards.)',
                                 choices: ['MIT License', 'GNU GPLv3', 'Other']
                             }                           
                     ])
@@ -212,8 +212,7 @@ const promptRepo = portfolioData => {
                                 return portfolioData;
                                 }
                             });                
-        };
-    
+        };    
 
  // initialize the prompt functions, promptRep is nested within the promptInput
 
@@ -231,23 +230,3 @@ const promptRepo = portfolioData => {
                 .catch(err => {
                 console.log(err);
                 });
-
-
-// // -- starter code -- original -- 
-
-            //             // -- array of questions for user
-            //             const questions = [
-
-            //             ];
-
-            //             // -- function to write README file
-            //             function writeToFile(fileName, data) {
-            //             }
-
-            //             // -- function to initialize program
-            //             function init() {
-
-            //             }
-
-            //             // -- function call to initialize program
-            //             init();

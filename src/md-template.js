@@ -84,7 +84,8 @@ ${test}
 ${lang}
 
 ## License
-${license.join(', ')}
+${license}
+
 
 `;
 })
@@ -114,18 +115,3 @@ ${header.github}
 ### ©️${new Date().getFullYear()} ${header.github}
 `;
 };
-
-
-
-
-
-// // -- starter code ---
-
-            //       // function to generate markdown for README
-            //       function generateMarkdown(data) {
-            //         return `# ${data.title}
-
-            //       `;
-            //       }
-
-            //       module.exports = generateMarkdown;

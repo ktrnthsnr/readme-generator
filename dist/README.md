@@ -1,13 +1,13 @@
-# Repository: readme-generator
+# Repository: t
 
 ## Questions?
 
-* Contact info/email: asathsnr@gmail.com
-* GitHub URL: https://github.com/ktrnthsnr
+* Contact info/email: t@
+* GitHub URL: https://github.com/t
 
 * Instructions on how to contribute:
 
-Please follow these steps to contribute: Please email me for requests to be added as a contributor.
+Please follow these steps to contribute: y
     
 
 
@@ -21,30 +21,31 @@ Please follow these steps to contribute: Please email me for requests to be adde
 * [License](#license)
 
 ## Description
-This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+y
 
 ## Installation
-Prereq: install VSCode, Node.js. After cloning the repo to your local drive, run the following in the VSCode terminal command-line $ npm init. Then install the Inquirer, or $ npm install inquirer. Then create a .gitignore file in the root and add the node_modules to this file.
+t
 
 ## Usage
-From your terminal, start the application by running $ node index.js
+t
 
 ## Reference
-https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md
+t
 
 ## Testing
-For example, run within the VSCode terminal, which will push the file to the root. You may validate the output within your repo README.md section.
+t
 
 ## Technology
-JavaScript,ES6,Node
+JavaScript
 
 ## License
-MIT License
+GNU GPLv3
+
 
 
 
 
 ## Contribution
-ktrnthsnr
+t
 
-### ©️2020 ktrnthsnr
+### ©️2020 t

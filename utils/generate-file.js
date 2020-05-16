@@ -24,8 +24,8 @@ const fs = require('fs');
 //-- create a promise, produces the README.md file, writes to the root (you can change this output location)
 const writeFile = fileContent => {
   return new Promise((resolve, reject) => {
-        //   fs.writeFile('./dist/README.md', fileContent, err => { 
-  fs.writeFile('./README.md', fileContent, err => {
+        fs.writeFile('./dist/README.md', fileContent, err => {  // to output to the /dist dir
+        //   fs.writeFile('./README.md', fileContent, err => {  // to output to your repo root
          if (err) {
                   reject(err);
                   return;
