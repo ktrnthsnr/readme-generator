@@ -1,6 +1,7 @@
-﻿# Repository: readme-generator
+﻿# Readme-Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## GitHub URL for this repo
+## GitHub
 * GitHub URL: https://github.com/ktrnthsnr/readme-generator
 
 ## Table of Contents
@@ -41,12 +42,12 @@ For example, run within the VSCode terminal, which will push the file to the roo
 JavaScript,ES6,Node
 
 ## Contribute
-* Instructions on how to contribute: email me for requests to be added as a contributor.
+Email me on any suggestions for code improvements you wish to contribute.
 
 ## License
 MIT License
 
 ## Contact
-* Info: https://github.com/ktrnthsnr/ktportfolio
+Profile info: https://github.com/ktrnthsnr/ktportfolio
 
 ### ©️2020 ktrnthsnr

@@ -1,6 +1,6 @@
  // Summary of file: generate-file.js
         // 1.  require for fs
-        // 2.  writeFile function w/promise ( md-template    >   dist/README.md)
+        // 2.  writeFile function w/promise (md-template > dist/README.md)
         // 3.  module exports, writefile 
 
 //-- require

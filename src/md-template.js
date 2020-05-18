@@ -95,7 +95,6 @@ return `# Repository: ${header.repo}
 
 * Instructions on how to contribute:
 ${generateContribute(contribute)}
-
 ${generateRepos(repos)}
 
 ## Contribution
