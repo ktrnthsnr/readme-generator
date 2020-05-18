@@ -24,23 +24,27 @@ This is a command-line application that dynamically generates a professional REA
 - $ npm init
 - Install npm Inquirer
 - $ npm install inquirer
-- Create a .gitignore file in the root and add node_modules this file
+- Create a .gitignore file in the root and add node_modules this file.
 - If you need to re-add the dependencies, run $ npm install
 
 ## Usage
 * From your terminal, start the application by running 
 * $ node index.js
-* Copy the README.md to any new repo's root directory
+* You may copy or use this README.md to any new repo.
+* Here is a sample of the questions through the command-line
+
+![Usage](./readme_usage.jpg "README.md usage")
 
 ## Reference
 https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md
 
 ## Testing
-For example, run within the VSCode terminal, which will push the file to the root. You may validate the output within your repo README.md section.
+* For example, run the application within the VSCode terminal, which when complete will write a new README.md file to the /dist folder.
+* Here is an example of the markdown file created:
 
 ![Test](./readme_sample.jpg "README.md sample")
 
-A link to view usage and a sample is included here: 
+A link to view usage and the markdown file created is included here: 
 
 ## Technology
 JavaScript,ES6,Node
