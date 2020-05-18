@@ -44,18 +44,19 @@ https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md
 
 ![Test](./readme_sample.jpg "README.md sample")
 
-A link to view usage and the markdown file created is included here: 
+A link to view usage, testing and the README.md file created is included here:
+https://drive.google.com/file/d/106Jf_Ft1Jw6Ge3mm7FnWoViHj5umOK29/view
 
 ## Technology
-JavaScript,ES6,Node
+JavaScript, ES6, Node, npm Inquirer
 
 ## Contribute
-Email me on any suggestions for code improvements you wish to contribute.
+Please email me for requests to be added as a contributor, or for any additional suggestions.
 
 ## License
 MIT License
 
 ## Contact
-Profile info: https://github.com/ktrnthsnr/ktportfolio
+https://github.com/ktrnthsnr/ktportfolio
 
 ### ©️2020 ktrnthsnr

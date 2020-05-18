@@ -8,8 +8,9 @@
 * Instructions on how to contribute:
 
 Please follow these steps to contribute: Please email me for requests to be added as a contributor.
+    
 
-##### ---- Repository Project Details ----  
+
 
 ## Table of Contents
 * [Description](#description)
@@ -28,16 +29,17 @@ Prereq: install VSCode, Node.js. After cloning the repo to your local 
 From your terminal, start the application by running $ node index.js
 
 ## Reference
-https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md
+https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md or add here for any
 
 ## Testing
-For example, run within the VSCode terminal, which will push the file to the root. You may validate the output within your repo README.md section.
+For example, run within the VSCode terminal, which will write a file to the /dist folder. 
 
 ## Technology
 JavaScript,ES6,Node
 
 ## License
 MIT License
+
 
 
 
