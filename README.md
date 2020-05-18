@@ -38,6 +38,10 @@ https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md
 ## Testing
 For example, run within the VSCode terminal, which will push the file to the root. You may validate the output within your repo README.md section.
 
+![Test](./readme_sample.jpg "README.md sample")
+
+A link to view usage and a sample is included here: 
+
 ## Technology
 JavaScript,ES6,Node
 
